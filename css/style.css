@@ -1086,6 +1086,34 @@ figure.effect-service:hover {
 
 /*------------------------------------------------------------------ Gallery -------------------------------------------------------------------*/
 
+/* Add this CSS code to your custom.css file or your preferred CSS file */
+
+/* Add this CSS code to your custom.css file or your preferred CSS file */
+
+.gallery {
+  background-color: #f9f9f9;
+  padding: 60px 0;
+}
+
+.gallery-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.gallery-item {
+  width: auto; /* Set the width to auto to maintain the actual image size */
+  margin: 10px;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+.gallery-item img {
+  max-width: 100%; /* Ensure images don't exceed their original size */
+  height: auto;
+}
+
+
 .gallery-box {
   padding: 70px 0px 120px;
 }
